@@ -1,106 +1,150 @@
-<!-- Header -->
+<!-- Header Banner -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:FF6584,100:43E97B&height=200&section=header&text=Ali%20Akbar&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Frontend%20%26%20Mobile%20Developer&descAlignY=58&descSize=20&animation=fadeIn" />
+
+<!-- Typing Animation -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,100:1a1a2e&height=120&section=header&text=&fontSize=0" />
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=React+%7C+React+Native+%7C+Next.js+Developer;Building+Web+%26+Mobile+Experiences;Firebase+%7C+Supabase+%7C+Redux;Open+to+Work+%F0%9F%9A%80)](https://git.io/typing-svg)
 
-# Ali Akbar
+</div>
 
-**Frontend & Mobile Developer**
+<!-- Badges -->
+<div align="center">
 
-*Building clean, purposeful interfaces for web and mobile*
-
-[![Open to Work](https://img.shields.io/badge/Open%20to%20Work-%2300b37d?style=flat-square&logo=checkmarx&logoColor=white)](mailto:aleewains@gmail.com)
+[![Open to Work](https://img.shields.io/badge/%F0%9F%9F%A2%20OPEN%20TO%20WORK-brightgreen?style=for-the-badge&labelColor=000)](mailto:aleewains@gmail.com)
 &nbsp;
-[![Email](https://img.shields.io/badge/aleewains@gmail.com-333?style=flat-square&logo=gmail&logoColor=white)](mailto:aleewains@gmail.com)
+[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aleewains@gmail.com)
 &nbsp;
-[![Location](https://img.shields.io/badge/Fatehpur%2C%20Pakistan-333?style=flat-square&logo=googlemaps&logoColor=white)](#)
+[![Location](https://img.shields.io/badge/Pakistan-1DA462?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
 </div>
 
----
-
-## About
-
-I'm a Computer Science graduate (GPA 3.75 · GC University Faisalabad) focused on building cross-platform mobile apps and fast, accessible web interfaces. I enjoy working across the full front-end stack — from pixel-perfect UI to state management and cloud integrations.
-
-- 🔭 Currently working on **food ordering & restaurant management systems**
-- 🌱 Currently learning **TypeScript · Node.js · advanced animations**
-- 💬 Ask me about **React Native, Next.js, Firebase, Supabase**
-- 📫 Reach me at **aleewains@gmail.com**
+<br/>
 
 ---
 
-## Tech Stack
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"/> &nbsp; About Me
 
-#### Frontend
-![React](https://img.shields.io/badge/React-%2320232a?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-%23000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=flat-square&logo=css3&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-%2338B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+<img align="right" width="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
 
-#### Mobile
-![React Native](https://img.shields.io/badge/React%20Native-%2320232a?style=flat-square&logo=react&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/Expo-%23000020?style=flat-square&logo=expo&logoColor=white)
+```javascript
+const aliAkbar = {
+  role:       "Frontend & Mobile Developer",
+  location:   "Fatehpur, Pakistan 🇵🇰",
+  education:  "BS CS · GCUF · GPA 3.75/4.0",
+  email:      "aleewains@gmail.com",
 
-#### State Management
-![Redux](https://img.shields.io/badge/Redux-%23593d88?style=flat-square&logo=redux&logoColor=white)
-![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-%23593d88?style=flat-square&logo=redux&logoColor=white)
+  stack: {
+    mobile:   ["React Native", "Expo"],
+    web:      ["React.js", "Next.js"],
+    state:    ["Redux", "Redux Toolkit"],
+    backend:  ["Firebase", "Supabase"],
+  },
 
-#### Backend & Database
-![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-%233ECF8E?style=flat-square&logo=supabase&logoColor=white)
-
-#### Tools
-![Git](https://img.shields.io/badge/Git-%23F05033?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-%23121011?style=flat-square&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-%230078d7?style=flat-square&logo=visualstudiocode&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-%23FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-%23000000?style=flat-square&logo=vercel&logoColor=white)
-
----
-
-## Projects
-
-| Project | Stack | Links |
-|---|---|---|
-| 🍔 **Food Ordering Mobile App** | React Native · Expo · Redux · Firebase · Supabase | [Download APK](https://drive.google.com/file/d/1GAWvSynPUR4RrfqsY11P7nJg2c0fA19H/view) |
-| 🖥️ **Restaurant Admin Dashboard** | React.js · Firebase · Supabase | [Live Demo](https://foodadmin-plum.vercel.app/) |
-| 📓 **Perspective Journal** | React.js · Firebase · Supabase | [Live Demo](https://perspective-journal.vercel.app/) |
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=aliakbar&show_icons=true&theme=default&hide_border=true&title_color=111111&text_color=444444&icon_color=111111&bg_color=ffffff&count_private=true" />
-&nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aliakbar&layout=compact&theme=default&hide_border=true&title_color=111111&text_color=444444&bg_color=ffffff" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=aliakbar&theme=default&hide_border=true&ring=111111&fire=111111&currStreakLabel=111111&sideLabels=444444&dates=888888" />
-
-</div>
-
----
-
-## Currently Learning
-
-```
-TypeScript          ████████░░░░   learning
-Node.js + Express   ██████░░░░░░   exploring  
-Advanced Animations ████░░░░░░░░   just started
+  currentlyLearning: ["TypeScript", "Node.js"],
+  openToWork: true,
+};
 ```
 
+<br clear="right"/>
+
+---
+
+## 🛠️ &nbsp; Tech Stack
+
+<div align="center">
+
+#### 💻 Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+#### 📱 Mobile
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+
+#### 🗄️ Backend & Database
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+
+#### ⚙️ State & Tools
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-0078D7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+</div>
+
+---
+
+## 🚀 &nbsp; Featured Projects
+
+<div align="center">
+
+| 🎯 Project | 🔧 Stack | 🔗 Link |
+|:---:|:---:|:---:|
+| 🍔 **Food Ordering Mobile App** | React Native · Expo · Redux · Firebase · Supabase | [![APK](https://img.shields.io/badge/Download%20APK-34A853?style=flat-square&logo=android&logoColor=white)](https://drive.google.com/file/d/1GAWvSynPUR4RrfqsY11P7nJg2c0fA19H/view) |
+| 🖥️ **Restaurant Admin Dashboard** | React.js · Firebase · Supabase | [![Live](https://img.shields.io/badge/Live%20Demo-6C63FF?style=flat-square&logo=vercel&logoColor=white)](https://foodadmin-plum.vercel.app/) |
+| 📓 **Perspective Journal** | React.js · Firebase · Supabase | [![Live](https://img.shields.io/badge/Live%20Demo-FF6584?style=flat-square&logo=vercel&logoColor=white)](https://perspective-journal.vercel.app/) |
+
+</div>
+
+---
+
+## 📊 &nbsp; GitHub Stats
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=aliakbar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=6C63FF&icon_color=FF6584" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=aliakbar&theme=tokyonight&hide_border=true&ring=6C63FF&fire=FF6584&currStreakLabel=6C63FF" />
+
+</div>
+
+<div align="center">
+
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aliakbar&layout=compact&theme=tokyonight&hide_border=true&title_color=6C63FF" />
+
+</div>
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=aliakbar&theme=tokyo-night&hide_border=true&color=6C63FF&line=FF6584&point=43E97B)](https://github.com/aliakbar)
+
+</div>
+
+---
+
+## 🌱 &nbsp; Currently Learning
+
+<div align="center">
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+
+```
+TypeScript          ████████░░░░   In Progress
+Node.js + Express   ██████░░░░░░   Exploring
+Advanced Animations ████░░░░░░░░   Just Started
+```
+
+</div>
+
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0f0f0f&height=80&section=footer" />
+### 💬 Let's connect and build something great together!
+
+[![Email](https://img.shields.io/badge/aleewains@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aleewains@gmail.com)
+
+<img src="https://komarev.com/ghpvc/?username=aliakbar&style=for-the-badge&color=6C63FF&label=PROFILE+VIEWS" />
 
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:43E97B,50:FF6584,100:6C63FF&height=120&section=footer" />
