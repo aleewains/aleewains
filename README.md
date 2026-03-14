@@ -189,17 +189,18 @@ Currently learning TypeScript & Node.js. Stay tuned for what's next! 🚀
 <hr/>
 
 <div align="center">
-
-<h2>💫 Motto 💫</h2>
-
+ 
+<h2>Motto</h2>
+ 
 > *"First, solve the problem. Then, write the code."*
-
+ 
 <br/>
-
+ 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
+ 
+<br/><br/>
+ 
 </div>
-
 <br/>
 <hr/>
 
