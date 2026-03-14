@@ -36,7 +36,7 @@
 
 ⚡ Fun fact **The first mobile app was Snake — on Nokia phones in 1997 📱**
 
-<br/><br/><br/><br/>
+<br/><br/>
 
 <hr/>
 
