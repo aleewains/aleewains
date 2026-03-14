@@ -196,9 +196,7 @@ Currently learning TypeScript & Node.js. Stay tuned for what's next! 🚀
  
 <br/>
  
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
- 
-<br/><br/>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="700" height="200" />
  
 </div>
 <br/>
