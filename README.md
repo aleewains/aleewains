@@ -12,9 +12,6 @@
 
 <br/>
 
-[![Gmail](https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red)](mailto:aleewains@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ali-akbar107)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://foodadmin-plum.vercel.app)
 
 </div>
 
@@ -35,6 +32,10 @@
 📫 Reach me at **aleewains@gmail.com**
 
 ⚡ Fun fact **The first mobile app was Snake — on Nokia phones in 1997 📱**
+
+[![Gmail](https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red)](mailto:aleewains@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ali-akbar107)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://foodadmin-plum.vercel.app)
 
 <br/><br/>
 
@@ -135,7 +136,7 @@ Currently learning TypeScript & Node.js. Stay tuned for what's next! 🚀
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aleewains&custom_title=Ali%20Akbar's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=7B2FFF&line=00D4FF&point=7B2FFF&area_color=7B2FFF&area=true&hide_border=true" width="100%" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aleewains&custom_title=GitHub%20Activity%20Graph&bg_color=0D1117&color=7B2FFF&line=00D4FF&point=7B2FFF&area_color=7B2FFF&area=true&hide_border=true" width="100%" alt="Activity Graph"/>
 </div>
 
 <br/>
