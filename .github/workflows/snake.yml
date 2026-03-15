@@ -17,7 +17,7 @@ jobs:
           github_user_name: aleewains
           outputs: |
             dist/github-contribution-grid-snake.svg?speed=0.3
-            dist/github-contribution-grid-snake-dark.svg?speed=0.3&color_snake=#a855f7&color_dots=#1a1b27,#2d2f4a,#3d3f6b,#5a5d9e,#7b7fd4
+            dist/github-contribution-grid-snake-dark.svg?speed=0.3&palette=github-dark
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
