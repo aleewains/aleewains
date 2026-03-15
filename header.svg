@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" fill="none">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        .wrap {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 20px 16px;
+          gap: 12px;
+          text-align: center;
+        }
+
+        .name {
+          font-family: 'Righteous', 'Segoe UI', sans-serif;
+          font-size: clamp(2rem, 8vw, 3.2rem);
+          font-weight: 700;
+          color: #000000;
+          letter-spacing: -0.5px;
+          line-height: 1;
+        }
+
+        @media (prefers-color-scheme: dark) {
+          .name { color: #ffffff; }
+        }
+
+        /* One-line tall container — all lines sit inside it */
+        .typing-wrap {
+          font-family: 'Fira Code', 'Courier New', monospace;
+          font-size: clamp(0.75rem, 2.5vw, 1rem);
+          color: #003f7a;
+          height: 1.6em;
+          position: relative;
+          width: 100%;
+          overflow: hidden;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        @media (prefers-color-scheme: dark) {
+          .typing-wrap { color: #60a5fa; }
+        }
+
+        /*
+          Each line is absolute, centered, starts opacity:0
+          When it's that line's turn:
+            1. fade in (opacity 1)
+            2. type (width 0 → full)
+            3. hold
+            4. erase (width full → 0)
+            5. fade out (opacity 0)
+          
+          Cycle = 16s, 4 lines, 4s each.
+          Per line timeline (offsets applied via animation-delay):
+            0s–0.2s   : appear (opacity 0→1)
+            0.2s–1.8s : type in  (1.6s, steps)
+            1.8s–3.0s : hold
+            3.0s–3.8s : erase   (0.8s, steps reverse)
+            3.8s–4.0s : disappear (opacity 1→0)
+          Then the whole line waits 12s (other 3 lines take their turns)
+          before looping.
+
+          animation-duration = 16s (full loop)
+          Each delay: l1=0s, l2=4s, l3=8s, l4=12s
+        */
+
+        .line {
+          position: absolute;
+          white-space: nowrap;
+          overflow: hidden;
+          opacity: 0;
+          border-right: 2px solid currentColor;
+        }
+
+        /* Line 1 */
+        .l1 {
+          animation:
+            show      16s linear     0s  infinite,
+            type-34   16s steps(34)  0s  infinite,
+            cur       16s step-end   0s  infinite;
+        }
+        /* Line 2 */
+        .l2 {
+          animation:
+            show      16s linear     4s  infinite,
+            type-31   16s steps(31)  4s  infinite,
+            cur       16s step-end   4s  infinite;
+        }
+        /* Line 3 */
+        .l3 {
+          animation:
+            show      16s linear     8s  infinite,
+            type-26   16s steps(26)  8s  infinite,
+            cur       16s step-end   8s  infinite;
+        }
+        /* Line 4 */
+        .l4 {
+          animation:
+            show      16s linear     12s infinite,
+            type-30   16s steps(30)  12s infinite,
+            cur       16s step-end   12s infinite;
+        }
+
+        /*
+          show/hide:
+          In a 4s active window inside a 16s loop.
+          4s / 16s = 25%
+          appear at 0%, gone by 25%.
+        */
+        @keyframes show {
+          0%              { opacity: 0; }
+          1%              { opacity: 1; }
+          23%             { opacity: 1; }
+          25%             { opacity: 0; }
+          100%            { opacity: 0; }
+        }
+
+        /*
+          Typing: width goes 0 → full in first ~40% of active window,
+          holds, then reverses.
+          Active window = 0%→25% of 16s.
+          Type-in  : 1% → 12%   (width 0 → Nch)
+          Hold     : 12% → 18%
+          Erase    : 18% → 24%  (width Nch → 0)
+        */
+        @keyframes type-34 {
+          0%, 1%  { width: 0; }
+          12%     { width: 34ch; }
+          18%     { width: 34ch; }
+          24%     { width: 0; }
+          100%    { width: 0; }
+        }
+        @keyframes type-31 {
+          0%, 1%  { width: 0; }
+          12%     { width: 31ch; }
+          18%     { width: 31ch; }
+          24%     { width: 0; }
+          100%    { width: 0; }
+        }
+        @keyframes type-26 {
+          0%, 1%  { width: 0; }
+          12%     { width: 26ch; }
+          18%     { width: 26ch; }
+          24%     { width: 0; }
+          100%    { width: 0; }
+        }
+        @keyframes type-30 {
+          0%, 1%  { width: 0; }
+          12%     { width: 30ch; }
+          18%     { width: 30ch; }
+          24%     { width: 0; }
+          100%    { width: 0; }
+        }
+
+        /* Cursor blinks only when active */
+        @keyframes cur {
+          0%              { border-color: transparent; }
+          1%              { border-color: currentColor; }
+          2%, 4%          { border-color: transparent; }
+          3%, 5%          { border-color: currentColor; }
+          6%, 8%          { border-color: transparent; }
+          7%, 9%          { border-color: currentColor; }
+          10%, 12%        { border-color: transparent; }
+          11%, 13%        { border-color: currentColor; }
+          14%, 16%        { border-color: transparent; }
+          15%, 17%        { border-color: currentColor; }
+          18%, 20%        { border-color: transparent; }
+          19%, 21%        { border-color: currentColor; }
+          22%             { border-color: transparent; }
+          23%             { border-color: currentColor; }
+          24%, 100%       { border-color: transparent; }
+        }
+
+      </style>
+
+      <div class="wrap">
+        <div class="name">Ali Akbar</div>
+        <div class="typing-wrap">
+          <span class="line l1">&#x26DB;&#xFE0F; React | React Native | Next.js</span>
+          <span class="line l2">&#x1F525; Firebase | Supabase | Redux</span>
+          <span class="line l3">&#x1F4F1; Mobile &amp; Web Developer</span>
+          <span class="line l4">&#x1F9D1;&#x1F3FB;&#x200D;&#x1F4BB; Open to Work &#x2014; Let&#x2019;s build!</span>
+        </div>
+      </div>
+
+    </div>
+  </foreignObject>
+</svg>
