@@ -155,11 +155,8 @@ Currently learning TypeScript & Node.js. Stay tuned for what's next! 🚀
 
 <br/>
 
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=aleewains&theme=flat&no-frame=true&no-bg=true&margin-w=4&row=1"/>
-  <img src="https://github-profile-trophy.vercel.app/?username=aleewains&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=1" width="100%"/>
-</picture>
+<div align="center" style="background:#141321; border-radius:12px; padding:16px;">
+  <img src="https://github-profile-trophy.vercel.app/?username=aleewains&theme=radical&no-frame=true&margin-w=4&row=1" width="100%"/>
 </div>
 
 <br/>
