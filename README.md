@@ -6,12 +6,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=50&center=true&vCenter=true&width=700&height=110&duration=1&pause=99999&color=000000&lines=Ali+Akbar" />
-
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=18&center=true&vCenter=true&width=700&height=50&duration=3000&pause=1000&color=003f7a&lines=⚛️+React+%7C+React+Native+%7C+Next.js;🔥+Firebase+%7C+Supabase+%7C+Redux;📱+Mobile+%26+Web+Developer;🧑🏻‍💻+Open+to+Work+—+Let's+build!" />
-
-<br/>
-
+<img src="https://raw.githubusercontent.com/aleewains/aleewains/main/header.svg" width="100%" alt="Ali Akbar — React · React Native · Next.js"/>
 
 </div>
 
