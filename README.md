@@ -120,8 +120,11 @@ Currently learning TypeScript & Node.js. Stay tuned for what's next! 🚀
 <div align="center">
   <h2>🐍 My Contributions 🐍</h2>
   <br/>
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/aleewains/aleewains/output/github-contribution-grid-snake.svg" />
-  <br/><br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aleewains/aleewains/output/github-contribution-grid-snake-dark.svg"/>
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/aleewains/aleewains/output/github-contribution-grid-snake.svg" width="100%"/>
+</picture>
+<br/><br/>
 </div>
 
 <hr/>
