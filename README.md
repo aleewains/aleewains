@@ -7,7 +7,7 @@
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/aleewains/aleewains/main/header.svg" width="100%" alt="Ali Akbar — React · React Native · Next.js"/>
-<br/><br/>
+
 </div>
 
 <hr/>
